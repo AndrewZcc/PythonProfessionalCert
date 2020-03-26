@@ -22,5 +22,6 @@
     * [2.8 动态规划](Chapter2/DP.md)
 * [三、程序优化](Chapter3/README.md)
     * [3.1 collections 高性能容器数据结构](Chapter3/collections.md)
-    * [3.2 deepcopy 深拷贝](Chapter3/deepcopy.md)
+    * [3.2 itertools 内建迭代工具模块](Chapter3/itertools.md)
+    * [3.3 deepcopy 深拷贝](Chapter3/deepcopy.md)
 

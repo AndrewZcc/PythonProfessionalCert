@@ -1,6 +1,7 @@
 # 3.1 高性能容器数据结构 collections
 
-https://docs.python.org/zh-cn/3/library/collections.html
+* https://docs.python.org/zh-cn/3/library/collections.html
+* https://www.liaoxuefeng.com/wiki/1016959663602400/1017681679479008
 
 **简介**
 collections在python官方文档中的解释是 **High-performance container datatypes**，高性能 **容器数据类型**。
@@ -42,6 +43,8 @@ defaultdict接受一个工厂函数作为参数，factory_function可以是list�
 
 ```python
 dict = defaultdict(factory_function)
+# 设置默认值为 -1，工厂函数可以简的用一个 lambda 匿名函数 即可
+dict = defaultdict(lambda: -1)
 
 from collections import defaultdict
 
