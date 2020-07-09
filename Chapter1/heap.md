@@ -66,6 +66,11 @@ def push_pop():
     print(heap)
     print("pop:", heapq.heappop(heap)) # 如果不先堆化，push/pop 操作的结果就是 不满足堆性质 的 list.push/list.pop
     print(heap)
+
+# 堆排序
+def heap_sort(nums):
+    heapq.heapify(nums)
+    return [heapq.heappop(nums) for _ in range(len(nums))]
 ```
 
 #### 典型例题
